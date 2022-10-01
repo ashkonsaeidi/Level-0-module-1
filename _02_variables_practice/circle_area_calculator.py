@@ -13,7 +13,7 @@ if __name__ == '__main__':
     
     # Ask the user for the radius in pixels and store it in a variable
     # simpledialog.askinteger()
-    pixel = simpledialog.askinteger(title="Wut", prompt="give me a radius in pixels to store in the variable")
+    pixel = messagebox.askinteger(title="Wut", prompt="give me a radius in pixels to store in the variable")
     # Make a new turtle
     jack=turtle.Turtle()
     # Have your turtle draw a circle with the correct radius

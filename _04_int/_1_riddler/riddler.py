@@ -11,3 +11,8 @@
 * After all the riddles have been asked, tell the user how many they got
   correct
 """
+
+import #riddle
+
+if __name__ == '__main__':
+    pass
