@@ -11,8 +11,16 @@
 * After all the riddles have been asked, tell the user how many they got
   correct
 """
-
+from tkinter import messagebox, simpledialog, Tk
 import #riddle
 
 if __name__ == '__main__':
-    pass
+    window = Tk()
+    window.withdraw()
+
+    riddle = simpledialog.askstring(title="Riddle", prompt="I make two people out of one. What am I?")
+    if riddle == "A mirror":
+        messagebox.showinfo(Title=":o", message="Correct!")
+    if riddle != "A mirror":
+        messagebox.showinfo(Title="Nuh uh", prompt="Incorrect, u suck)"
+
