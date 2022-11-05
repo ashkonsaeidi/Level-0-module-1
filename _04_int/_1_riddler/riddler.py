@@ -23,4 +23,4 @@ if __name__ == '__main__':
         messagebox.showinfo(Title=":o", message="Correct!")
     if riddle != "A mirror":
         messagebox.showinfo(Title="Nuh uh", prompt="Incorrect, u suck)"
-
+r
