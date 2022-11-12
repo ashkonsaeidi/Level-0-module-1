@@ -12,8 +12,6 @@
   correct
 """
 from tkinter import messagebox, simpledialog, Tk
-import #riddle
-
 if __name__ == '__main__':
     window = Tk()
     window.withdraw()
@@ -22,5 +20,4 @@ if __name__ == '__main__':
     if riddle == "A mirror":
         messagebox.showinfo(Title=":o", message="Correct!")
     if riddle != "A mirror":
-        messagebox.showinfo(Title="Nuh uh", prompt="Incorrect, u suck)"
-r
+        messagebox.showinfo(Title="Nuh uh", prompt="Incorrect, u suck")
