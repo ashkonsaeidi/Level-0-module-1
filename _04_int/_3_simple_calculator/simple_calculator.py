@@ -6,3 +6,7 @@
 * Use if-else statements to provide the desired math operation on the numbers
   and display the result.
 """
+from tkinter import messagebox, simpledialog, Tk
+if __name__ == '__main__':
+    window = Tk()
+    window.withdraw()
